@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29F1C82A-8DE0-3F57-8A41-4A7BD61E5046" name="TBL_PLACAS_EV">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>58FCBF9F-F76A-D114-78B6-E99EB39DBE52</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_placa" id="29A87776-FB68-665E-3C07-191C0FF3C1B1">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>A92E6200-83C0-0DB5-5BD5-D0249A1C4AA3</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cadastro_ev" id="3CF6C5DF-94E0-01F1-709C-286C9505AFBE">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>4CF032E9-ADD6-B514-EF40-A858F7ED388D</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="416C66E6-AB75-454F-DC71-0B225E882722" referredColumn="0DDA3C8D-3549-27F3-CC9C-9794E498F5B8"/>
+</associations>
+</Column>
+<Column name="modelo" id="D80ED503-5C54-6E45-9520-C49DFD85DDEF">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>F4885A76-699B-A181-B98A-D3905FCEC300</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia_nominal" id="495F792A-47EB-FCB3-A63E-F4052F2115AB">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>915CC716-37A4-EF8C-6177-E7B74ABAA328</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="BDBA39EE-6AA6-358F-7D84-B79AF3E82C8F">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>7E5828F5-3A4A-6AE2-ED02-A1DE62899710</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="F45EC1F7-87F6-3BFF-94F9-9F64FD317E93">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>7A59997E-9901-E98C-245C-612EB6AE9CAF</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DF3F4FF-0310-9D21-8574-047A42A880AD" name="TBL_PLACAS_EV_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>F078F65E-8CD0-E1E6-0519-E0D955FDF236</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29A87776-FB68-665E-3C07-191C0FF3C1B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7777C7E4-C81B-07C0-DBDA-A2DBBA69284D" name="TBL_PLACAS_EV_TBL_CLIENTE_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>1C5C4759-6D8C-0649-8A67-66EE90359BA3</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CF6C5DF-94E0-01F1-709C-286C9505AFBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

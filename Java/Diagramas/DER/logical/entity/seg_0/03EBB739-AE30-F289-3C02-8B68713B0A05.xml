@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03EBB739-AE30-F289-3C02-8B68713B0A05" name="TBL_CADASTROS_EV">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:33:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cadastro_ev" id="D19C59DD-3726-9746-802E-C00B687C3FF8">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:33:49 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="1B5F74CD-8368-FD36-A2A3-631FF3392471">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:33:49 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="0B8952B5-C764-7362-5249-3975AF318D35">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:33:49 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="0A97D574-DB48-7AFF-706C-BBEC768CF014">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:33:49 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3A7CBCA-7A6E-A4C4-A1B0-C2F19EDBDF20" name="TBL_CADASTROS_EV PK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:34:04 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D19C59DD-3726-9746-802E-C00B687C3FF8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="17A42F33-09B3-8178-0C21-9DA1FCBDDCCC" name="TBL_CADASTROS_EV UN">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:34:40 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<newElementsIDs>1B5F74CD-8368-FD36-A2A3-631FF3392471</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

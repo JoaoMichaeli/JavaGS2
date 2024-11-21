@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B08E18-71D6-0C7C-2419-632A7013ED69" name="TBL_CADASTROS_EV">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>03EBB739-AE30-F289-3C02-8B68713B0A05</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cadastro_ev" id="881D94D3-DC97-1F2F-02EE-42580575E81B">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>D19C59DD-3726-9746-802E-C00B687C3FF8</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CBE1E7EB-9FDB-C2D7-4CD5-BEAAA33D268C">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>1B5F74CD-8368-FD36-A2A3-631FF3392471</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="8193C1FB-3927-4D90-536F-B4F0D59ABD50">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>0B8952B5-C764-7362-5249-3975AF318D35</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="5F5097CA-02DB-DB20-4BBD-E55FCA9A8609">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>0A97D574-DB48-7AFF-706C-BBEC768CF014</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34E15858-DD2F-DF32-2177-46B97F4F5CA7" name="TBL_CADASTROS_EV_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>B3A7CBCA-7A6E-A4C4-A1B0-C2F19EDBDF20</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881D94D3-DC97-1F2F-02EE-42580575E81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FE82130-6E6C-179F-57E3-579F75966112" name="TBL_CADASTROS_EV__UN">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>17A42F33-09B3-8178-0C21-9DA1FCBDDCCC</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE1E7EB-9FDB-C2D7-4CD5-BEAAA33D268C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

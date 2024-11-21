@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B064753F-033E-3383-0A06-3AA2EDD5A0BC" name="TBL_CLIENTE">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>F04B3F01-12BF-22CA-68D1-AA293018D130</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cadastro_ev" id="0DDA3C8D-3549-27F3-CC9C-9794E498F5B8">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>D19C59DD-3726-9746-802E-C00B687C3FF8</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0A5DA11-E293-4931-C6CA-6DB8FEFCCD49" referredColumn="881D94D3-DC97-1F2F-02EE-42580575E81B"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="AB18C9A4-B4B0-DF4A-8988-99BD7B5174E2">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>7822434B-40D0-C2BA-97B6-DB94AE1F8A6B</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="219E9E35-FA4A-6572-08F4-30D610A97310" name="TBL_CLIENTE_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>B3A7CBCA-7A6E-A4C4-A1B0-C2F19EDBDF20</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DDA3C8D-3549-27F3-CC9C-9794E498F5B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D232F8A-83C1-82B3-52E8-9B4B47753889" name="TBL_CLIENTE_TBL_CADASTROS_EV_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:49 UTC</createdTime>
+<generatorID>4FCB36F1-FE1C-DC48-3B34-B65271A223F7</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DDA3C8D-3549-27F3-CC9C-9794E498F5B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

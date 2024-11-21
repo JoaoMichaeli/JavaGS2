@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="05AD84A6-3AA4-220E-9CC1-D0579CF33575">
+<createdBy>joaov</createdBy>
+<modifiedBy>joaov</modifiedBy>
+<createdTime>2024-11-21 12:33:37 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="03EBB739-AE30-F289-3C02-8B68713B0A05" otype="Entity" vid="9FF68269-4A9B-D925-EA83-4220B9DA1270">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="39" y="51" width="410" height="118"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="58FCBF9F-F76A-D114-78B6-E99EB39DBE52" otype="Entity" vid="B1C1E8C6-B3DD-69BB-0E99-ACBE1551EDAD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="553" y="49" width="235" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F04B3F01-12BF-22CA-68D1-AA293018D130" otype="Entity" vid="3B66402D-2808-F1F5-40CD-8D13EC7F7251">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="277" y="80" width="155" height="42"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1C5C4759-6D8C-0649-8A67-66EE90359BA3" otype="Relation" vid_source="3B66402D-2808-F1F5-40CD-8D13EC7F7251" vid_target="B1C1E8C6-B3DD-69BB-0E99-ACBE1551EDAD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="432" y="86"/>
+<point x="553" y="86"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="4FCB36F1-FE1C-DC48-3B34-B65271A223F7" otype="Hierarchy relation" vid_source="9FF68269-4A9B-D925-EA83-4220B9DA1270" vid_target="3B66402D-2808-F1F5-40CD-8D13EC7F7251">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-65536</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+</connectors>
+</Diagram>

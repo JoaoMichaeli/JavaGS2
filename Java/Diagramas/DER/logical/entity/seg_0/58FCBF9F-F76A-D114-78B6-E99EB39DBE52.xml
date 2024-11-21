@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58FCBF9F-F76A-D114-78B6-E99EB39DBE52" name="TBL_PLACAS_EV">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:34 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_placa" id="A92E6200-83C0-0DB5-5BD5-D0249A1C4AA3">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cadastro_ev" id="4CF032E9-ADD6-B514-EF40-A858F7ED388D">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:38:33 UTC</createdTime>
+<generatorID>1C5C4759-6D8C-0649-8A67-66EE90359BA3</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<referedAttribute>D19C59DD-3726-9746-802E-C00B687C3FF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="F4885A76-699B-A181-B98A-D3905FCEC300">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potencia_nominal" id="915CC716-37A4-EF8C-6177-E7B74ABAA328">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="7E5828F5-3A4A-6AE2-ED02-A1DE62899710">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="7A59997E-9901-E98C-245C-612EB6AE9CAF">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F078F65E-8CD0-E1E6-0519-E0D955FDF236" name="TBL_PLACAS_EV PK">
+<createdBy>joaov</createdBy>
+<createdTime>2024-11-21 12:35:59 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="721DA029-E72D-733A-A026-1BE6590A02B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A92E6200-83C0-0DB5-5BD5-D0249A1C4AA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
